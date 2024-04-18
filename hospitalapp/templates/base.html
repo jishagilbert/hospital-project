@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    footer {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    color: #333;
+}
+     container{
+       background-color: #FF0000;}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;}
+
+      li {
+    display: inline-block;
+    margin-right: 10px;
+
+      }
+
+      li a {
+    text-decoration: none;
+    color: #333;
+    transition: text-decoration 0.3s ease;
+
+    }
+      .header  li {
+        padding-left: 15px;
+        padding-right: 15px;
+
+		}
+
+    </style>
+
+</head>
+<body>
+
+
+<div class="super_container">
+
+
+<header style="background-color:silver;" class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header_content d-flex flex-row align-items-center justify-content-start">
+						<div class="header_content_inner d-flex flex-row align-items-end justify-content-start">
+							<img src="https://marketplace.canva.com/EAFBb6P4OLs/1/0/1600w/canva-red-blue-simple-logo-hbl5vlZh180.jpg " height="80px" width="200px" class="rounded-circle" alt="">
+
+							<nav class="main_nav">
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li><a href="home">HOME</a></li>
+                                  <li><a href="abo">ABOUT</a></li>
+
+									<li><a href="dep">DEPARTMENT</a></li>
+
+									<li><a href="doct">DOCTORS</a> </li>
+									<li><a href="book">BOOKING</a> </li>
+                                    	<li><a href="call">CONTACT US</a> </li>
+
+
+								</ul>
+							</nav>
+
+
+							<!-- Hamburger -->
+
+
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+</header>
+</div>
+
+
+<div class="mainbody">
+
+{% block content %}
+
+{% endblock %}
+
+</div>
+
+<footer>
+
+
+        <p>Copyright &copy; 2024 Hospital Website...</p>
+        <p>Contact: <a href="mailto:info@example.com">jishagilbert1997@gmail.com</a></p>
+    </footer>
+</body>
+</html>
